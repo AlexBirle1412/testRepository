@@ -10,7 +10,7 @@ $myfrm = '
    <input type="submit">
 </form>';
 if (!isset($_POST['sir_numere'])){
-echo "<br/>vom aduna cateva numere $myfrm";
+echo "<br/>vom aduna cateva numere reale $myfrm";
 }
 else {
 // echo $myfrm;
