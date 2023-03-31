@@ -24,6 +24,7 @@ if (!isset($_POST['sir_numere'])) {
       $sir .= $value . " + ";
    }
    $sir = substr($sir, 0, -3);   //ca sa nu afiseze ultimul egal
+   echo "Ok";
    echo "$sir = <span style='border:
 1px solid grey;padding:3px;background-color:#dedede;'> $sum </span>
      <br/><br/>
