@@ -25,9 +25,9 @@ $sum += $value;
 $sir .= $value . " + ";
 }
 $sir = substr($sir, 0, -3);   //ca sa nu afiseze ultimul egal
+echo "Just a simle test";
 echo "$sir = <span style='border:
 1px solid grey;padding:3px;background-color:#dedede;'> $sum </span>
      <br/><br/>
      <form><input type='submit' value='clear'></form>";
 }
-?>
